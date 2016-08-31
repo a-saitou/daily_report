@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :works do
-    get :autocomplete_constraction_abbrevation, :on => :collection 
+    get :autocomplete_constraction_abbreviation, :on => :collection 
   end
   resources :constractions
   resources :calendars
