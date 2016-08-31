@@ -1,0 +1,37 @@
+<%= form_for(@calendar) do |f| %>
+  <% if @calendar.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@calendar.errors.count, "error") %> prohibited this calendar from being saved:</h2>
+
+      <ul>
+      <% @calendar.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :hiduke %><br>
+    <%= f.date_select :hiduke %>
+  </div>
+  <div class="field">
+    <%= f.label :year %><br>
+    <%= f.number_field :year %>
+  </div>
+  <div class="field">
+    <%= f.label :month %><br>
+    <%= f.number_field :month %>
+  </div>
+  <div class="field">
+    <%= f.label :day %><br>
+    <%= f.number_field :day %>
+  </div>
+  <div class="field">
+    <%= f.label :holiday %><br>
+    <%= f.check_box :holiday %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

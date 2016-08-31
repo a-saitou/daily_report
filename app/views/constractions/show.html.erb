@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @constraction.name %>
+</p>
+
+<p>
+  <strong>Abbreviation:</strong>
+  <%= @constraction.abbreviation %>
+</p>
+
+<p>
+  <strong>Kana:</strong>
+  <%= @constraction.kana %>
+</p>
+
+<p>
+  <strong>Code:</strong>
+  <%= @constraction.code %>
+</p>
+
+<p>
+  <strong>Orderer:</strong>
+  <%= @constraction.orderer_id %>
+</p>
+
+<p>
+  <strong>Start date:</strong>
+  <%= @constraction.start_date %>
+</p>
+
+<p>
+  <strong>End date:</strong>
+  <%= @constraction.end_date %>
+</p>
+
+<%= link_to 'Edit', edit_constraction_path(@constraction) %> |
+<%= link_to 'Back', constractions_path %>

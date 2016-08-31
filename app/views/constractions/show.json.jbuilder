@@ -1,0 +1,1 @@
+json.partial! "constractions/constraction", constraction: @constraction

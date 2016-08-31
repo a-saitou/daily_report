@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Hiduke:</strong>
+  <%= @calendar.hiduke %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @calendar.year %>
+</p>
+
+<p>
+  <strong>Month:</strong>
+  <%= @calendar.month %>
+</p>
+
+<p>
+  <strong>Day:</strong>
+  <%= @calendar.day %>
+</p>
+
+<p>
+  <strong>Holiday:</strong>
+  <%= @calendar.holiday %>
+</p>
+
+<%= link_to 'Edit', edit_calendar_path(@calendar) %> |
+<%= link_to 'Back', calendars_path %>

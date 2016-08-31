@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Hiduke:</strong>
+  <%= @work.hiduke %>
+</p>
+
+<p>
+  <strong>Staff:</strong>
+  <%= @work.staff_id %>
+</p>
+
+<p>
+  <strong>Constraction:</strong>
+  <%= @work.constraction_id %>
+</p>
+
+<p>
+  <strong>Start time:</strong>
+  <%= @work.start_time %>
+</p>
+
+<p>
+  <strong>End time:</strong>
+  <%= @work.end_time %>
+</p>
+
+<p>
+  <strong>Work time:</strong>
+  <%= @work.work_time %>
+</p>
+
+<p>
+  <strong>Over time:</strong>
+  <%= @work.over_time %>
+</p>
+
+<p>
+  <strong>Night time:</strong>
+  <%= @work.night_time %>
+</p>
+
+<%= link_to 'Edit', edit_work_path(@work) %> |
+<%= link_to 'Back', works_path %>

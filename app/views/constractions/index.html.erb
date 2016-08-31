@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Constractions</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Abbreviation</th>
+      <th>Kana</th>
+      <th>Code</th>
+      <th>Orderer</th>
+      <th>Start date</th>
+      <th>End date</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @constractions.each do |constraction| %>
+      <tr>
+        <td><%= constraction.name %></td>
+        <td><%= constraction.abbreviation %></td>
+        <td><%= constraction.kana %></td>
+        <td><%= constraction.code %></td>
+        <td><%= constraction.orderer_id %></td>
+        <td><%= constraction.start_date %></td>
+        <td><%= constraction.end_date %></td>
+        <td><%= link_to 'Show', constraction %></td>
+        <td><%= link_to 'Edit', edit_constraction_path(constraction) %></td>
+        <td><%= link_to 'Destroy', constraction, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Constraction', new_constraction_path %>

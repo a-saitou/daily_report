@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  hiduke: 2016-08-31
+  staff_id: 1
+  constraction_id: 1
+  start_time: 2016-08-31 12:51:27
+  end_time: 2016-08-31 12:51:27
+  work_time: 1.5
+  over_time: 1.5
+  night_time: 1.5
+
+two:
+  hiduke: 2016-08-31
+  staff_id: 1
+  constraction_id: 1
+  start_time: 2016-08-31 12:51:27
+  end_time: 2016-08-31 12:51:27
+  work_time: 1.5
+  over_time: 1.5
+  night_time: 1.5
