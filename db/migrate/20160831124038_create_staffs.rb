@@ -5,7 +5,7 @@ class CreateStaffs < ActiveRecord::Migration
       t.string :office
       t.integer :order
       t.decimal :wage
-      t.date :birth_day
+      t.date :birthday
       t.date :hire_date
       t.date :leaving_date
 
