@@ -1,0 +1,14 @@
+current directory: /home/ec2-user/daily_report/vendor/bundle/gems/json-1.8.3/ext/json
+/home/ec2-user/.rbenv/versions/2.0.0-p648/bin/ruby -r ./siteconf20160831-2811-lzh6xi.rb extconf.rb
+creating Makefile
+
+current directory: /home/ec2-user/daily_report/vendor/bundle/gems/json-1.8.3/ext/json
+make "DESTDIR=" clean
+
+current directory: /home/ec2-user/daily_report/vendor/bundle/gems/json-1.8.3/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /home/ec2-user/daily_report/vendor/bundle/gems/json-1.8.3/ext/json
+make "DESTDIR=" install
+installing default libraries

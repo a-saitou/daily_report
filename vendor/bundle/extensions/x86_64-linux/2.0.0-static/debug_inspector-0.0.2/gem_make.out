@@ -1,0 +1,16 @@
+current directory: /home/ec2-user/daily_report/vendor/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+/home/ec2-user/.rbenv/versions/2.0.0-p648/bin/ruby -r ./siteconf20160831-2811-1bqvpeb.rb extconf.rb
+creating Makefile
+
+current directory: /home/ec2-user/daily_report/vendor/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /home/ec2-user/daily_report/vendor/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.so
+
+current directory: /home/ec2-user/daily_report/vendor/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.so ./.gem.20160831-2811-1iagr9w
+installing default debug_inspector libraries

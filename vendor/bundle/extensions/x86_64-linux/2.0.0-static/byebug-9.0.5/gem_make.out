@@ -1,0 +1,20 @@
+current directory: /home/ec2-user/daily_report/vendor/bundle/gems/byebug-9.0.5/ext/byebug
+/home/ec2-user/.rbenv/versions/2.0.0-p648/bin/ruby -r ./siteconf20160831-2811-czxevu.rb extconf.rb
+creating Makefile
+
+current directory: /home/ec2-user/daily_report/vendor/bundle/gems/byebug-9.0.5/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/ec2-user/daily_report/vendor/bundle/gems/byebug-9.0.5/ext/byebug
+make "DESTDIR="
+compiling context.c
+compiling locker.c
+compiling byebug.c
+compiling breakpoint.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/ec2-user/daily_report/vendor/bundle/gems/byebug-9.0.5/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20160831-2811-23ltdc/byebug
+installing default byebug libraries
