@@ -22,6 +22,8 @@
   <div class="field">
     <%= f.label :constraction_id %><br>
     <%= f.number_field :constraction_id %>
+    <%= f.autocomplete_field :constraction_abbrivation, autocomplete_constraction_abbrivation_works_path, id_element: '#work_constraction_id' %>
+  <%= f.hidden_field :constraction_id %>
   </div>
   <div class="field">
     <%= f.label :start_time %><br>
