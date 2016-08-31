@@ -2,7 +2,7 @@ class CreateStaffs < ActiveRecord::Migration
   def change
     create_table :staffs do |t|
       t.string :name
-      t.strig :office
+      t.string :office
       t.integer :order
       t.deimal :wage
       t.date :birth_day
