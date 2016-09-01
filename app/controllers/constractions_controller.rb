@@ -1,6 +1,6 @@
 class ConstractionsController < ApplicationController
   before_action :set_constraction, only: [:show, :edit, :update, :destroy]
-  autocomplete :staff, :name, :full => true
+  autocomplete :constraction, :name, :full => true
   # GET /constractions
   # GET /constractions.json
   def index
