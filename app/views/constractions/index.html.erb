@@ -14,10 +14,7 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Listing Constractions</h1>
-<%= form_for(@constractions) do |f| %>
-  <%= f.autocomplete_field :constraction_name, autocomplete_constraction_name_constractions_path,'data-delimiter' => ',', :multiple => true %>
-<% end %>
-
+<%= autocomplete_field ::constraction, :name, autocomplete_:constraction_name_path %>
 <table>
   <thead>
     <tr>
