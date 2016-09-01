@@ -1,11 +1,18 @@
 <%= form_tag(constractions_path, :method => "get",  id: "search-form") do %>
 <!-- text field tag=action,args,identifier,placeholdertext... -->
 <%= text_field_tag :search, params[:search], class: "search-query", placeholder: "namesearch", type: "search", data: {autocomplete: autocomplete_constraction_name_constractions_path} %>  
-<!--<%= submit_tag "Search" %>, id_element: '#works_constraction_id' -->
 <%end%>
-
+<script type="text/javascript" charset="utf-8">
+  $('#search').bind('railsAutocomplete.select', function(event, data){
+  $('#constraction_constraction_id').val(data.item.id);
+  });
+  //#search_field_id を 検索用テキストフィールドのIDに
+</script>
 <p id="notice"><%= notice %></p>
-
+  <div class="field">
+    <%= f.label :constraction_id %><br>
+    <%= f.number_field :constraction_id %>
+  </div>
 <h1>Listing Constractions</h1>
 
 <table>
