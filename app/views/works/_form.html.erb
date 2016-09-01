@@ -6,6 +6,7 @@
 <script type="text/javascript" charset="utf-8">
   $('#search').bind('railsAutocomplete.select', function(event, data){
   $('#work_constraction_id').val(data.id);
+  $('#search-form').submit();
   });
   //#search_field_id を 検索用テキストフィールドのIDに
 </script>
