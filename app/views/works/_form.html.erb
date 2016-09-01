@@ -5,7 +5,7 @@
 <%end%>
 <script type="text/javascript" charset="utf-8">
   $('#search').bind('railsAutocomplete.select', function(event, data){
-  $(':text[name="work[constraction_id]"]')).val(data.constractions.id);
+  $(':text[name="work[constraction_id]"]')).val(data.id);
   });
   //#search_field_id を 検索用テキストフィールドのIDに
 </script>
