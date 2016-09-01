@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
   resources :works do
     get :autocomplete_constraction_name, :on => :collection 
-
   end
-   get 'works/autocomplete_constraction_name'
+   #get 'works/autocomplete_constraction_name'
   resources :constractions do
     get :autocomplete_staff_name, :on => :collection
    # get :autocomplete_constraction_name, :on => :collection 
