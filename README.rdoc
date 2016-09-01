@@ -23,7 +23,7 @@ Things you may want to cover:
 
 * ...
 
-githubの説明通りではおまくいかなかったのでsampleの例でやってみた。
+githubの説明通りではうまくいかなかったのでsampleの例でやってみた。
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
