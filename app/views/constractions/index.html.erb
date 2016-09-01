@@ -5,11 +5,11 @@
 <script type="text/javascript" charset="utf-8">
   $('#search').bind('railsAutocomplete.select', function(event, data){
   $('#constraction_id').val(data.item.id);
+  alert(data.item.id);
   });
   //#search_field_id を 検索用テキストフィールドのIDに
 </script>
 <p id="notice"><%= notice %></p>
-<td><%= constraction.id %></td>
 
 <h1>Listing Constractions</h1>
 
