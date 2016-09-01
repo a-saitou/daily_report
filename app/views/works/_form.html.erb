@@ -1,6 +1,6 @@
 <%= form_tag(works_path, :method => "get", :remote => true, id: "search-form") do %>
 <!-- text field tag=action,args,identifier,placeholdertext... -->
-<%= text_field_tag :search, params[:search], class: "search-query", placeholder: "namesearch", type: "search", data: {autocomplete: works_autocomplete_constraction_name_path} %>  
+<%= text_field_tag :search, params[:search], class: "search-query", placeholder: "namesearch", type: "search", data: {autocomplete: autocomplete_constraction_name_works_path} %>  
 <!--<%= submit_tag "Search" %>-->
 <%end%>
 <script type="text/javascript" charset="utf-8">
