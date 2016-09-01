@@ -1,6 +1,6 @@
 class WorksController < ApplicationController
   before_action :set_work, only: [:show, :edit, :update, :destroy]
-  autocomplete :constraction, :abbreviation, :full => true
+  autocomplete :constraction, :name, :full => true
   # GET /works
   # GET /works.json
   def index

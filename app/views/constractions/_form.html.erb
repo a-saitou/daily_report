@@ -13,7 +13,7 @@
 
   <div class="field">
     <%= f.label :name %><br>
-    <%= f.text_field :name %>
+    <%= f.autocomplete_field :staff_name, autocomplete_staff_name_constractions_path %>
   </div>
   <div class="field">
     <%= f.label :abbreviation %><br>
