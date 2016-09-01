@@ -10,14 +10,13 @@
   //#search_field_id を 検索用テキストフィールドのIDに
 </script>
 
-<%= form_for(@constractions) do |f| %>
-  <%= f.autocomplete_field :constraction_name, autocomplete_constraction_name_constractions_path,
-  'data-delimiter' => ',', :multiple => true %>
-<% end %>
 
 <p id="notice"><%= notice %></p>
 
 <h1>Listing Constractions</h1>
+<%= form_for(@constractions) do |f| %>
+  <%= f.autocomplete_field :constraction_name, autocomplete_constraction_name_constractions_path,'data-delimiter' => ',', :multiple => true %>
+<% end %>
 
 <table>
   <thead>
